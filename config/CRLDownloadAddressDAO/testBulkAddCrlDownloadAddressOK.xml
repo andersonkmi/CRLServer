@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CRL_DOWNLOAD_ADDRESS address="http://www.url1.com/test.crl" issuer_id="1111111111111111111111111111111111111111" description="URL de teste 1"/>
+  <CRL_DOWNLOAD_ADDRESS address="http://www.url2.com/test.crl" issuer_id="1111111111111111111111111111111111111111" description="URL de teste 2"/>
+</dataset>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+    <appender name="LOGFILE" class="org.apache.log4j.FileAppender">
+        <param name="File" value="crl_server.log" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd/MM/yyyy HH\:mm\:ss,SSS} [%-5p] %c{2}.%M - %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd/MM/yyyy HH\:mm\:ss,SSS} [%-5p] %c{2}.%M - %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="STDERR" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.err" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd/MM/yyyy HH\:mm\:ss,SSS} [%-5p] %c{2}.%M - %m%n" />
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="TRACE" />
+            <param name="LevelMax" value="FATAL" />
+        </filter>
+    </appender>
+    
+    <logger name="org.sharpsw.crlserver" additivity="false">
+        <level value="TRACE" />
+        <appender-ref ref="LOGFILE" />
+    </logger>
+    
+    <root>
+        <level value="FATAL" />
+        <appender-ref ref="LOGFILE" />
+    </root>
+</log4j:configuration>

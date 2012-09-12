@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CRL_ISSUER name="Fake" description="Fake"/>
+  <CRL_ISSUER name="CN=AC Secretaria da Receita Federal do Brasil, O=ICP-Brasil, C=BR" description="Secretaria da Receita Federal do Brasil" next_update_timestamp="[null]" />
+  <CRL_ISSUER name="CN=Autoridade Certificadora Raiz Brasileira v1, OU=Instituto Nacional de Tecnologia da Informacao - ITI, O=ICP-Brasil, C=BR" description="Autoriadade Certificaddora Raiz Brasileira v1" next_update_timestamp="[null]" />
+ </dataset>

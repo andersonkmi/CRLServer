@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CRL_ISSUER name="Fake" description="Fake"/>
+  <CRL_ISSUER name="CN=AC Secretaria da Receita Federal do Brasil, O=ICP-Brasil, C=BR" description="Secretaria da Receita Federal do Brasil" next_update_timestamp="[null]" />
+  <CRL_ISSUER name="CN=Autoridade Certificadora Raiz Brasileira v1, OU=Instituto Nacional de Tecnologia da Informacao - ITI, O=ICP-Brasil, C=BR" description="Autoriadade Certificaddora Raiz Brasileira v1" next_update_timestamp="[null]" />
+  <CRL_ISSUER name="CN = AC SERASA RFB v1, OU = Secretaria da Receita Federal do Brasil - RFB, O = ICP-Brasil, C = BR" description="AC SERASA RFB v1" next_update_timestamp="[null]" />
+  <CRL_ISSUER name="CN = Autoridade Certificadora Raiz Brasileira v2, OU = Instituto Nacional de Tecnologia da Informacao - ITI, O = ICP-Brasil, C = BR" description="Autoridade Certificadora Raiz Brasileira v2" next_update_timestamp="[null]" />
+  <CRL_ISSUER name="CN = AC Secretaria da Receita Federal do Brasil v3, OU = Autoridade Certificadora Raiz Brasileira v2, O = ICP-Brasil, C = BR" description="AC Secretaria da Receita Federal do Brasil v3" next_update_timestamp="[null]" />
+  <CRL_ISSUER name="CN = AC SERASA RFB v2, OU = Secretaria da Receita Federal do Brasil - RFB, O = ICP-Brasil, C = BR" description="AC SERASA RFB v2" next_update_timestamp="[null]" />
+ </dataset>

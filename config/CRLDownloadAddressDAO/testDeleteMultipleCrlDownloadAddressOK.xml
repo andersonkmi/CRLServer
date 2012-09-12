@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CRL_DOWNLOAD_ADDRESS address="http://www.url2.com/test.crl" issuer_id="1111111111111111111111111111111111111111" description="URL de teste 2"/>
+  <CRL_DOWNLOAD_ADDRESS address="http://www.url4.com/test.crl" issuer_id="1111111111111111111111111111111111111111" description="URL de teste 4"/>
+  <CRL_DOWNLOAD_ADDRESS address="http://www.url5.com/test.crl" issuer_id="2222222222222222222222222222222222222222" description="URL de teste 5"/>
+  <REVOKED_CERTIFICATE />
+  <UPDATE_LOG />
+</dataset>

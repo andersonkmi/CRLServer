@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CRL_ISSUER id="1111111111111111111111111111111111111111" name="CN=AC Secretaria da Receita Federal do Brasil, O=ICP-Brasil, C=BR" description="Secretaria da Receita Federal do Brasil"/>
+  <CRL_ISSUER id="2222222222222222222222222222222222222222" name="CN=Autoridade Certificadora Raiz Brasileira v1, OU=Instituto Nacional de Tecnologia da Informacao - ITI, O=ICP-Brasil, C=BR" description="Autoridade Certificadora Raiz Brasileira v1"/>
+  <CRL_DOWNLOAD_ADDRESS />
+  <REVOKED_CERTIFICATE />
+  <UPDATE_LOG />
+</dataset>

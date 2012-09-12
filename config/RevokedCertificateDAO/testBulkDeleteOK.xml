@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <REVOKED_CERTIFICATE issuer_id="2222222222222222222222222222222222222222" serial_number="11223344" revocation_timestamp="2012-03-26 15:16:17.0" revocation_reason="UserRequest"/>
+  <REVOKED_CERTIFICATE issuer_id="2222222222222222222222222222222222222222" serial_number="22334455" revocation_timestamp="2011-12-31 10:48:19.0" revocation_reason="UserRequest"/>
+  <UPDATE_LOG />
+</dataset>
